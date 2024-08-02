@@ -1,5 +1,9 @@
 package chapter4;
 
-public class TestGit {
+import java.util.Scanner;
 
+public class TestGit {
+	 public static void main(String[] args) {
+		
+	}
 }
