@@ -29,13 +29,12 @@ public class SubtractionQuizLoop {
 			if (number1 - number2 == answer) {
 				System.out.println("Bạn chọn đúng!");
 				correctCount++;
-			} else {
+			} else
 				System.out
 						.println("Bạn đã chọ sai!.\n" + number1 + " - " + number2 + " nên là:  " + (number1 - number2));
+				count++;             
 				output += "\n" + number1 + "-" + number2 + "=" + answer
 						+ ((number1 - number2 == answer) ? " Đúng" : "Sai");
-			}
-			count++;
 		}
 		long endTime = System.currentTimeMillis();
 		long testTime = endTime - startTime;
