@@ -42,7 +42,7 @@ public class DisplayUnicode {
 		int j = 2 + 'a'; //'a' trong UNI là 97
 		System.out.println(" j là: " + j); // 2 + 97  = 99
 		System.out.println( j + " là Unicode cho ký tự " + (char)j); //(char)j tức là (char)99 là c trong UNI
-		
+
 	}
 
 }
